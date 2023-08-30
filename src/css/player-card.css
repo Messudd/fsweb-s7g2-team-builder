@@ -1,0 +1,56 @@
+@font-face {
+    font-family: quatt ;
+    src: url('./../font/Quattrocento-Regular.ttf');
+}
+
+.card-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    padding: 10px;
+    width: 75%;
+    font-family: quatt;
+    background-color: #113f67;
+    box-shadow: 0 0 3px whitesmoke;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin:10px;
+   
+}
+.card-player p{
+    color:#a2a8d3;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-style: italic;
+}
+.card-player span {
+    color:#e7eaf6;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.card-player .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding: 3px;
+    margin: 5px;
+}
+.buttons button{
+    padding: 5px 15px;
+    background-color:#113f67;
+    border : 2px solid rgba(255,255,255,0.8);
+    border-radius: 4px;
+    color:whitesmoke;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.buttons button:hover {
+    transition: all 0.4s ease;
+    letter-spacing: 1px;
+    background-color: #e7eaf6;
+    color:#113f67;
+
+}
